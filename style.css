@@ -1,0 +1,86 @@
+body{
+    margin:0;
+}
+
+nav{
+    background-color: orange;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size:20pt;
+    font-family: 'Muli', sans-serif;
+}
+
+.banner{
+    height: 480px;
+    background-image: url(img/img_poke.jpg);
+    opacity:0.7;
+
+    background-size: cover;
+    
+}
+
+.banner h1, h4{
+    color: #163624;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 35pt;
+    opacity:1;
+
+}
+
+.banner h4{
+    font-size:20pt;
+}
+
+.banner h1{
+margin: 0;
+padding-top: 150pt
+}
+
+.cadastro{
+    display:flex;
+    justify-content:center; 
+}
+
+.cadastro div{
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    margin-bottom:35px;
+
+}
+
+.cadastro h3{
+    text-align:center;
+    font-family: 'Muli',sans-serif;
+    color: black
+}
+
+input{
+    border-radius: 10px;
+    margin-bottom: 7px;
+    padding:5px;
+}
+
+.button{
+    font-family: 'Muli',sans-serif;
+}
+.button:hover{
+    color: #163624;
+    font-family: 'Muli',sans-serif;
+    font-size: 17px;
+}
+
+::placeholder{
+    font-size:15px;
+    text-align:center;
+    color: #9de0bb;
+}
